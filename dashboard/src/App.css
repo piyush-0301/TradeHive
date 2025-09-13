@@ -1,0 +1,23 @@
+.bg-green {
+  background-color: green;
+}
+
+.bg-red {
+  background-color: red;
+}
+.menuSelected{
+  color:red
+}
+.dropdown{
+  position: fixed !important;
+  border: 1px solid black;
+  background-color: white;
+  padding: 1rem;
+  right: 2.5rem;
+  border-radius: 6px;
+}
+.dropdown>div{
+  margin-top: 0.5rem;
+  margin-bottom: 0.5rem;
+  color: blue;
+}
