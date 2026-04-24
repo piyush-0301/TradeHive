@@ -1,7 +1,8 @@
 import { defineConfig } from 'vite'
-import react from '@vitejs/plugin-react'
+import react from '@vitejs/react-refresh'
 
-// https://vite.dev/config/
 export default defineConfig({
   plugins: [react()],
+  // Make sure there is NO "base: '/something/'" here 
+  // unless you are using a sub-path.
 })
