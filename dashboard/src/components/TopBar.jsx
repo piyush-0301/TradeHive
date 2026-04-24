@@ -80,7 +80,7 @@ const TopBar = ({ user, stocks, fetchHoldings }) => {
           <div className="col" onClick={handleProfileClick}>
             <span style={{ cursor: "pointer" }}><Person /></span>
             {isProfileDropdownOpen ?
-              <div className="dropdown"><strong><i>tanuj.gaware</i></strong>
+              <div className="dropdown"><strong><i>pratham</i></strong>
                 <div><Link to="/signup">Signup</Link></div>
                 {user ? <div>Logout</div> : <div><Link to="/login">LogIn</Link></div>}
               </div>
