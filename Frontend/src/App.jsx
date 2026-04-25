@@ -18,7 +18,7 @@ function App() {
       <Routes>
         <Route path="/" element={<Signup />} />
         <Route path="/signup" element={<Signup />} />
-        <Route path="/dashboard" element={<div><h1>Dashboard Loaded Successfully!</h1></div>} />
+        <Route path="/dashboard" element={<Dashboard />} /> {/* Must be lowercase 'd' */}
         <Route path="*" element={<NotFound />} />
       </Routes>
       <Footer /> {/* This shows   on every page */}
