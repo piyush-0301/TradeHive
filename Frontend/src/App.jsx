@@ -3,7 +3,7 @@ import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
 import './App.css';
 
 // Import your pages (check paths)
-import Signup from './landingPage/signup/Signup';
+import Signup from './landingPage/signup/signup';
 import Navbar from './landingPage/Navbar';
 import Footer from './landingPage/Footer';
 import NotFound from './landingPage/NotFound';
@@ -18,10 +18,10 @@ function App() {
       <Routes>
         <Route path="/" element={<Signup />} />
         <Route path="/signup" element={<Signup />} />
-        <Route path="/dashboard" element={<Dashboard />} />
+        <Route path="/dashboard" element={<div><h1>Dashboard Loaded Successfully!</h1></div>} />
         <Route path="*" element={<NotFound />} />
       </Routes>
-      <Footer /> {/* This shows on every page */}
+      <Footer /> {/* This shows   on every page */}
     </Router>
   );
 }
