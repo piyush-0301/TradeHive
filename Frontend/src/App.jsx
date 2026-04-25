@@ -3,7 +3,7 @@ import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
 import './App.css';
 
 // Import your pages (check paths)
-import Signup from './landingPage/signup/signup';
+import Signup from './landingPage/signup/Signup';
 import Navbar from './landingPage/Navbar';
 import Footer from './landingPage/Footer';
 import NotFound from './landingPage/NotFound';
